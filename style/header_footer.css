@@ -1,0 +1,89 @@
+/* Logotipo e Menu de Navegação */
+.img-logo {
+    width: 150px;
+    height: 115px;
+    justify-content:space-between;
+    display:inline-block; /* visual do link */
+    vertical-align: middle;
+    border-style: none;
+    left: 0px;
+}
+
+.container, #navbarPrincipal, .navbar-nav, .nav-item, .dropdown-toggle, .dropdown-menu, .dropdown-item {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    right: 0%;   
+}
+
+#div-principal {
+    background-color:#ebd1a6;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#menu-principal a {
+    color: #1b395e;
+    font-weight: 800;
+    font-size: 20px;
+    justify-content: space-between;
+    left: 0px;
+}
+
+#menu-principal .nav-item a {
+    padding: 36px 0px;
+}
+
+#menu-principal a:hover {
+    color: #84614f;
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link-right {
+    margin-right: 20px;
+}
+/*------------------------------*/
+
+/* Corpo do Site */
+.conteudo {
+    min-height: calc(100vh - 100px); /* Leva em consideração a altura do cabeçalho e do rodapé */
+    padding-bottom: 100px; /* Leva em consideração a altura do rodapé */
+    overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+}
+
+/*------------------------------*/
+
+/* Footer */
+.rodape {
+    background-color: #ebd1a6;
+    color: #1b395e;
+    min-height: 100px;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+h5 {
+    color: #1b395e;;
+    text-align: justify;
+    border-style: none;
+    align-content: center;
+}
+
+h6 {
+    color: #53a1a7;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}

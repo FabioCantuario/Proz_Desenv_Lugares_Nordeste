@@ -1,7 +1,7 @@
 /* Logotipo e Menu de Navegação */
 .img-logo {
-    width: 150px;
-    height: 115px;
+    width: 100px;
+    height: 95px;
     justify-content:space-between;
     display:inline-block; /* visual do link */
     vertical-align: middle;
@@ -18,7 +18,7 @@
 }
 
 #div-principal {
-    background-color:#ebd1a6;
+    background-color:hwb(37 65% 5%);
     background-size: contain;
     background-repeat: no-repeat;
 }

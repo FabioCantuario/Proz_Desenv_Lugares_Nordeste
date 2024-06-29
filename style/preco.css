@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.img-preco {
+    text-align: center;
+}
+
+div, button, a {
+    text-decoration: none;
+    text-align: center;
+}
+
+button, a:hover {
+    text-decoration: none;
+}
